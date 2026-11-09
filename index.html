@@ -1,0 +1,101 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive personal portfolio website.">
+  <title>Alex Morgan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">Alex<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">Let's talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">FRONTEND DEVELOPER</p>
+        <h1>Building digital<br><span>experiences</span> that matter.</h1>
+        <p class="hero-description">Hi, I'm Alex — a developer who enjoys turning thoughtful designs into fast, accessible, and responsive websites.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work</a>
+          <a class="text-link" href="#about">More about me <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract decorative illustration">
+        <div class="art-circle circle-one"></div>
+        <div class="art-circle circle-two"></div>
+        <div class="art-card">
+          <span class="code-mark">&lt;/&gt;</span>
+          <p>Design. Develop.<br>Deliver.</p>
+          <span class="art-caption">CREATIVE CODE</span>
+        </div>
+        <span class="spark spark-one">✳</span>
+        <span class="spark spark-two">✦</span>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">A LITTLE INTRODUCTION</p>
+          <h2>Curious mind.<br>Creative approach.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I enjoy solving problems through clean code and simple design. My focus is on creating useful web experiences that look great and work smoothly on every screen.</p>
+          <div class="skills" aria-label="Skills">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section container" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Featured projects</h2>
+        </div>
+        <p>A few concepts that show my approach<br class="desktop-break"> to design and development.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-purple">
+          <div class="project-visual visual-dashboard"><div class="mini-window"><span></span><span></span><span></span><div class="mini-chart"></div></div></div>
+          <div class="project-info"><div><h3>Insight Dashboard</h3><p>Analytics · UI Design</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card project-orange">
+          <div class="project-visual visual-shop"><div class="shop-bag">SHOP<br>GOOD.</div><div class="shop-circle"></div></div>
+          <div class="project-info"><div><h3>Good Things Store</h3><p>E-commerce · Frontend</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card project-green">
+          <div class="project-visual visual-travel"><div class="travel-sun"></div><div class="travel-hill"></div><span>GO<br>EXPLORE</span></div>
+          <div class="project-info"><div><h3>Wander Journal</h3><p>Travel · Web Design</p></div><span class="project-arrow">↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's make something<br>great together.</h2></div>
+        <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="logo" href="#home">Alex<span>.</span></a>
+    <p>© 2026 Alex Morgan. Built with care.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
